@@ -1,12 +1,10 @@
 "use client";
-import { useState } from "react";
 
 export default function Page() {
-  const [test, setTest] = useState(0);
-
   return (
-    <button onClick={() => setTest(test + 1)}>
-      {test}
-    </button>
+    <div style={{ padding: 40 }}>
+      <h1>DEBUG OK</h1>
+      <p>Jeśli to widzisz → routing działa</p>
+    </div>
   );
 }
