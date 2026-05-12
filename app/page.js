@@ -77,7 +77,7 @@ export default function Page() {
           boxShadow: "0 10px 30px rgba(0,0,0,0.2)",
         }}
       >
-        <h1>💵 USD Trading Panel PRO</h1>
+        <h1>💵 USD Trading Panel by GeeX</h1>
 
         {/* PRICE */}
         <div style={{ marginTop: 20 }}>
